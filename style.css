@@ -1,0 +1,85 @@
+.logo{
+height:150px ;
+width:auto;
+vertical-align:middle;
+}
+body {
+    background-color:#F8A7BA;
+}
+footer {
+    height: 70px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+}
+header, main, footer {
+    width: 100%;
+    display: block;
+}
+header {
+    font-size: 28px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    height: 148px;
+    color: rgb(177, 106, 106);
+}
+main > .top{
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    height: 150px;
+}
+
+main > .top td.number::before {
+    content: '🎵 ';
+    width: 50px;
+}
+main > h4 {    
+    padding: 4px 0px;
+}
+main > div .top {
+    background-color: rgb(177, 106, 106);
+    border: 2px solid rgb(219, 140, 147);
+    border-radius: 5%;
+}
+main > div .top {
+    color: #fcf6f7;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.photo, .content {
+    padding: 5px;
+    clear: both;
+}
+.photo img {
+    height: 150px;
+    width: auto;
+}
+.photo table {
+    width: 100%;
+}
+.photo td {
+    width: 32%;
+    text-align: center;
+}
+
+.content > div {
+    display: block;
+    padding: 10px 0px;
+    float: left;
+}
+.content img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0px 10px;
+}
+.End{
+    height: 150px;
+    width: 150px;
+}
+
+img {
+    border: 2px solid rgb(219, 140, 147);
+    border-radius: 50% 20% / 10% 40%;
+}
